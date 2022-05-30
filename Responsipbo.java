@@ -16,7 +16,8 @@ public class Responsipbo {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        ViewMenu menu = new ViewMenu();
+        ViewMenu viewmenu = new ViewMenu();
+        ControllerMenu mmc = new ControllerMenu(viewmenu);
         
     }
     
